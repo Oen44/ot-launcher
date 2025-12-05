@@ -1,0 +1,12 @@
+{
+  "WEBSITE_URL": "https://example.com",
+  "WIKI_URL": "https://wiki.example.com",
+  "REGISTER_URL": "https://example.com/register",
+  "DISCORD_INVITE": "https://discord.gg/example",
+  "R2_CDN_URL": "https://r2.example.com",
+  "API_URL": "http://example.com:3000",
+  "CLIENTS": {
+    "64-bit OpenGL": "otclient_gl_x64.exe",
+    "64-bit DirectX": "otclient_dx_x64.exe"
+  }
+}
