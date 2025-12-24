@@ -51,7 +51,8 @@ function createWindow() {
     mainWindow.loadFile(join(__dirname, '../renderer/index.html'))
   }
 
-  mainWindow.webContents.openDevTools()
+  if (is.dev)
+    mainWindow.webContents.openDevTools()
 
   return mainWindow
 }
